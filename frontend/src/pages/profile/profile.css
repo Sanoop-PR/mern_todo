@@ -1,0 +1,40 @@
+.profile_body{
+    /* background-color: aqua; */
+    height: 88vh;
+}
+.input_sec{
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem 4rem;
+}
+.btn_sec{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.btn_sec,.input_sec{
+    border: 1px solid rgb(0, 0, 0);
+    /* background-color: rgb(239, 239, 239); */
+}
+.p_image{
+    width: 50px;
+    border-radius: 5px;
+
+}
+.inputField{
+    width: 100%;
+}
+header{
+position: relative;
+z-index: 4;
+}
+.profile_logo{
+    cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+    .input_sec{
+        padding: 10px;
+    }
+    .profile_body{
+        margin-top: 2rem;
+    }
+}

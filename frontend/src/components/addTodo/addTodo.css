@@ -1,0 +1,28 @@
+.addTodo_form{
+    display: flex;
+    width: fit-content;
+}
+.addTodo_div{
+    margin-right: 5px;
+}
+.title_inp{
+    display: block;
+    height: 2rem;
+    width: 500px;
+    background: transparent;
+    padding: 5px;
+    border: 1px solid;
+}
+.title{
+    margin-bottom: 5px;
+}
+.plus_btn{
+    width: 4rem;
+    background: transparent;
+    border: 1px solid;
+}
+@media screen and (max-width:619px) {
+    .title_inp{
+        width: 300px;
+    }
+}
